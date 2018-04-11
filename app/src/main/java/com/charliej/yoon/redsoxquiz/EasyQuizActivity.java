@@ -187,12 +187,6 @@ public class EasyQuizActivity extends AppCompatActivity {
     public void onSaveInstanceState(Bundle outState) {
 
         super.onSaveInstanceState(outState);
-//        outState.putInt(KEY_ANSWER_GROUP_1, easyAnswer1.getCheckedRadioButtonId());
-//        outState.putInt(KEY_ANSWER_GROUP_2, easyAnswer2.getCheckedRadioButtonId());
-//        outState.putInt(KEY_ANSWER_GROUP_3, easyAnswer3.getCheckedRadioButtonId());
-//        outState.putInt(KEY_ANSWER_GROUP_5, easyAnswer5.getCheckedRadioButtonId());
-//        outState.putInt(KEY_ANSWER_GROUP_7, easyAnswer7.getCheckedRadioButtonId());
-//        outState.putInt(KEY_ANSWER_GROUP_8, easyAnswer8.getCheckedRadioButtonId());
 
         outState.putBoolean(KEY_ANSWER_1A, easyAnswer1A.isChecked());
         outState.putBoolean(KEY_ANSWER_1B, easyAnswer1B.isChecked());
@@ -254,12 +248,6 @@ public class EasyQuizActivity extends AppCompatActivity {
 
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
-//        easyAnswer1.check(savedInstanceState.getInt(KEY_ANSWER_GROUP_1));
-//        easyAnswer2.check(savedInstanceState.getInt(KEY_ANSWER_GROUP_2));
-//        easyAnswer3.check(savedInstanceState.getInt(KEY_ANSWER_GROUP_3));
-//        easyAnswer5.check(savedInstanceState.getInt(KEY_ANSWER_GROUP_5));
-//        easyAnswer7.check(savedInstanceState.getInt(KEY_ANSWER_GROUP_7));
-//        easyAnswer8.check(savedInstanceState.getInt(KEY_ANSWER_GROUP_8));
 
         // Restores RadioButton state, checked or unchecked.
         easyAnswer1A.setChecked(savedInstanceState.getBoolean(KEY_ANSWER_1A));
