@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.charliej.yoon.redsoxquiz.IntroActivity">
+
+    <!--Following View is used to be the background of entire screen.-->
+    <ImageView
+        style="@style/introBackground"
+        tools:ignore="ContentDescription" />
+
+    <!--Place buttons in vertical linear layout; centered horizontally.-->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/buttonsPosition">
+
+        <!--Button for easy level.  Goes to easyQuizActivity. -->
+        <Button
+            android:id="@+id/easy_button"
+            style="@style/buttonStyle"
+            android:onClick="easyQuiz"
+            android:text="@string/easy_button" />
+
+        <!--Button for difficult level.  Goes to difficultQuizActivity. -->
+        <!--<Button-->
+        <!--style="@style/buttonStyle.WithTopMargin"-->
+        <!--android:text="@string/difficult_button"-->
+        <!--android:onClick="difficultQuiz"/>-->
+
+    </LinearLayout>
+
+
+</RelativeLayout>

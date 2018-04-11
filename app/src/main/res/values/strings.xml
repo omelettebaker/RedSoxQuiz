@@ -1,0 +1,91 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Red Sox Quiz</string>
+
+    <!-- Button labels. -->
+    <string name="easy_button">Play Ball !!</string>
+    <string name="difficult_button">difficult</string>
+    <string name="submitButton">Submit</string>
+    <string name="resetButton">Replay</string>
+
+    <!-- Easy Quiz Questions. -->
+    <string name="easyQuestion1">How many World Series championships have the Red Sox won?</string>
+    <string name="easyQuestion2">In which ballpark do the Red Sox play their home games?</string>
+    <string name="easyQuestion3">The Red Sox play in the American League.</string>
+    <string name="easyQuestion4">Which of the following Red Sox are in the Hall of Fame?</string>
+    <string name="easyQuestion5">What city do the Red Sox play for?</string>
+    <string name="easyQuestion6">Which of the following Red Sox entered the Hall of Fame as left fielders?</string>
+    <string name="easyQuestion7">How many total World Series did Hall of Famers Ted Williams, Carl Yastrzemski, and Jim Rice win?</string>
+    <string name="easyQuestion8">What song played during the 8th inning has become a Fenway Park tradition?</string>
+    <string name="easyQuestion9">Boston was one of 8 teams in the inaugural season of the new American League in 1901. What was the franchise called?</string>
+
+
+    <!-- Easy Quiz Answers for question 1. -->
+    <string name="easyAnswer1A">1</string>
+    <string name="easyAnswer1B">4</string>
+    <string name="easyAnswer1C">6</string>
+    <string name="easyAnswer1D">8</string>
+
+    <!-- Easy Quiz Answers for question 2. -->
+    <string name="easyAnswer2A"><![CDATA[AT&T Park]]></string>
+    <string name="easyAnswer2B">Camden Yards</string>
+    <string name="easyAnswer2C">Fenway Park</string>
+    <string name="easyAnswer2D">Safeco Field</string>
+
+    <!-- Easy Quiz Answers for question 3. -->
+    <string name="easyAnswer3A">True</string>
+    <string name="easyAnswer3B">False</string>
+
+    <!-- Easy Quiz Answers for question 4. -->
+    <string name="easyAnswer4A">Carl Yastrzemski</string>
+    <string name="easyAnswer4B">David Ortíz</string>
+    <string name="easyAnswer4C">Pedro Martínez</string>
+    <string name="easyAnswer4D">Ted Williams</string>
+
+    <!-- Easy Quiz Answers for question 5. -->
+    <string name="easyAnswer5A">Boston</string>
+    <string name="easyAnswer5B">Charlotte</string>
+    <string name="easyAnswer5C">New York</string>
+    <string name="easyAnswer5D">Portland</string>
+
+    <!-- Easy Quiz Answers for question 6. -->
+    <string name="easyAnswer6A">Bobby Doerr</string>
+    <string name="easyAnswer6B">Carl Yastrzemski</string>
+    <string name="easyAnswer6C">Jim Rice</string>
+    <string name="easyAnswer6D">Ted Williams</string>
+
+    <!-- Easy Quiz Answers for question 7. -->
+    <string name="easyAnswer7A">0</string>
+    <string name="easyAnswer7B">1</string>
+    <string name="easyAnswer7C">2</string>
+    <string name="easyAnswer7D">3</string>
+
+    <!-- Easy Quiz Answers for question 8. -->
+    <string name="easyAnswer8A">\"God Bless America\" by Kate Smith</string>
+    <string name="easyAnswer8B">\"Sweet Caroline\" by Neil Diamond</string>
+    <string name="easyAnswer8C">\"Take Me Out to the Ball Game\" by Albert Von Tilzer</string>
+    <string name="easyAnswer8D">\"Tessie\" by Dropkick Murphys</string>
+
+    <!-- Easy Quiz Answers for question 9. -->
+    <string name="easyAnswer9A">Teacups</string>
+    <string name="easyAnswer9B">Patriots</string>
+    <string name="easyAnswer9C">Bostonians</string>
+    <string name="easyAnswer9D">Americans</string>
+
+    <!-- Easy Quiz Answers for question 10.-->
+    <string name="easyQuestion10">Where did Fenway Park get its name?</string>
+    <string name="easyAnswer10A">It was named after the original owner.</string>
+    <string name="easyAnswer10B">It sits on land belonging to the Fenway estate.</string>
+    <string name="easyAnswer10C">It was named for a former Boston mayor.</string>
+    <string name="easyAnswer10D">It is named for a district in the city.</string>
+
+    <!-- Toast message if user submits incomplete quiz-->
+    <string name="incompleteQuizToast">Please complete all the questions.</string>
+
+    <!-- Toast message for scores 70% or higher. -->
+    <string name="finishedQuizToast">Well Done!\n\nYou answered <xliff:g id="score">%d</xliff:g> out of 10 questions correct.
+    </string>
+    <!-- Toast message for scores less than 70%. -->
+    <string name="finishedQuizPoorToast">Better luck next time!\n\nYou answered <xliff:g id="score">%d</xliff:g> out of 10 questions correct.
+    </string>
+
+</resources>

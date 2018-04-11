@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.charliej.yoon.redsoxquiz.EasyQuizActivity">
+
+    <LinearLayout style="@style/quizPageLayout">
+
+        <!-- Question 1: Uses horizontal radio group.  -->
+        <TextView
+            style="@style/quizQuestion.WithTopPadding"
+            android:text="@string/easyQuestion1" />
+
+        <RadioGroup
+            android:id="@+id/easyAnswerGroup1"
+            style="@style/answerGroupHorizontal">
+
+            <RadioButton
+                android:id="@+id/easyAnswer1A"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer1A" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer1B"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer1B" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer1C"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer1C" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer1D"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer1D" />
+        </RadioGroup>
+
+        <View style="@style/divider" />
+
+        <!-- Question 2: Uses vertical radio group. -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion2" />
+
+        <RadioGroup
+            android:id="@+id/easyAnswerGroup2"
+            style="@style/answerGroupVertical">
+
+            <RadioButton
+                android:id="@+id/easyAnswer2A"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer2A" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer2B"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer2B" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer2C"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer2C" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer2D"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer2D" />
+        </RadioGroup>
+
+        <View style="@style/divider" />
+
+        <!--Question 3: Uses horizontal radio group. -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion3" />
+
+        <RadioGroup
+            android:id="@+id/easyAnswerGroup3"
+            style="@style/answerGroupHorizontal">
+
+            <RadioButton
+                android:id="@+id/easyAnswer3A"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer3A" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer3B"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer3B" />
+        </RadioGroup>
+
+        <View style="@style/divider" />
+
+        <!-- Question 4: Uses checkboxes aligned vertically in linear layout. -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion4" />
+
+        <LinearLayout style="@style/answerGroupVertical">
+
+            <CheckBox
+                android:id="@+id/easyAnswer4A"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer4A" />
+
+            <CheckBox
+                android:id="@+id/easyAnswer4B"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer4B" />
+
+            <CheckBox
+                android:id="@+id/easyAnswer4C"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer4C" />
+
+            <CheckBox
+                android:id="@+id/easyAnswer4D"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer4D" />
+
+        </LinearLayout>
+
+        <View style="@style/divider" />
+
+        <!-- Question 5: Uses vertical radio group. -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion5" />
+
+        <RadioGroup
+            android:id="@+id/easyAnswerGroup5"
+            style="@style/answerGroupVertical">
+
+            <RadioButton
+                android:id="@+id/easyAnswer5A"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer5A" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer5B"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer5B" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer5C"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer5C" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer5D"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer5D" />
+        </RadioGroup>
+
+        <View style="@style/divider" />
+
+        <!-- Question 6: Uses checkboxes aligned vertically in linear layout. -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion6" />
+
+        <LinearLayout style="@style/answerGroupVertical">
+
+            <CheckBox
+                android:id="@+id/easyAnswer6A"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer6A" />
+
+            <CheckBox
+                android:id="@+id/easyAnswer6B"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer6B" />
+
+            <CheckBox
+                android:id="@+id/easyAnswer6C"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer6C" />
+
+            <CheckBox
+                android:id="@+id/easyAnswer6D"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer6D" />
+
+        </LinearLayout>
+
+        <View style="@style/divider" />
+
+        <!-- Question 7: Uses horizontal radio group.  -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion7" />
+
+        <RadioGroup
+            android:id="@+id/easyAnswerGroup7"
+            style="@style/answerGroupHorizontal">
+
+            <RadioButton
+                android:id="@+id/easyAnswer7A"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer7A" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer7B"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer7B" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer7C"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer7C" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer7D"
+                style="@style/answerButtonHorizontal"
+                android:text="@string/easyAnswer7D" />
+        </RadioGroup>
+
+        <View style="@style/divider" />
+
+        <!-- Question 8: Uses vertical radio group. -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion8" />
+
+        <RadioGroup
+            android:id="@+id/easyAnswerGroup8"
+            style="@style/answerGroupVertical">
+
+            <RadioButton
+                android:id="@+id/easyAnswer8A"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer8A" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer8B"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer8B" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer8C"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer8C" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer8D"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer8D" />
+        </RadioGroup>
+
+        <View style="@style/divider" />
+
+        <!-- Question 9: Uses vertical radio group. -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion9" />
+
+        <RadioGroup
+            android:id="@+id/easyAnswerGroup9"
+            style="@style/answerGroupVertical">
+
+            <RadioButton
+                android:id="@+id/easyAnswer9A"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer9A" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer9B"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer9B" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer9C"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer9C" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer9D"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer9D" />
+        </RadioGroup>
+
+        <View style="@style/divider" />
+
+        <!-- Question 10: Uses vertical radio group. -->
+        <TextView
+            style="@style/quizQuestion"
+            android:text="@string/easyQuestion10" />
+
+        <RadioGroup
+            android:id="@+id/easyAnswerGroup10"
+            style="@style/answerGroupVertical">
+
+            <RadioButton
+                android:id="@+id/easyAnswer10A"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer10A" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer10B"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer10B" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer10C"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer10C" />
+
+            <RadioButton
+                android:id="@+id/easyAnswer10D"
+                style="@style/answerButtonVertical"
+                android:text="@string/easyAnswer10D" />
+        </RadioGroup>
+
+        <!-- Button to submit answers. -->
+        <Button
+            style="@style/buttonStyleQuizPage"
+            android:onClick="submitTest"
+            android:text="@string/submitButton" />
+
+        <!-- Button to reset quiz and clear all the answers.-->
+        <Button
+            style="@style/buttonStyleQuizPage"
+            android:layout_marginBottom="@dimen/quizButtonVerticalMargin"
+            android:onClick="reset"
+            android:text="@string/resetButton" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensions of rectangle shape used for buttons; can adjust corner radius and edge thickness.  -->
+    <dimen name="buttonCornerRadius">15dp</dimen>
+    <dimen name="buttonStrokeWidth">1dp</dimen>
+    <dimen name="buttonPadding">0dp</dimen>
+
+    <!-- Horizontal padding for the text on quiz pages so lines are not against edges. -->
+    <dimen name="quizPagePadding">26dp</dimen>
+
+    <!-- Dimensions for buttons on the intro page. -->
+    <dimen name="introButtonTextSize">22sp</dimen>
+    <dimen name="introButtonPadding">50dp</dimen>
+    <dimen name="introButtonSpacing">30dp</dimen>
+    <dimen name="introButtonLandscapeSpacing">15dp</dimen>
+
+    <!-- Dimensions for buttons on the quiz pages.-->
+    <dimen name="quizButtonVerticalMargin">28dp</dimen>
+    <dimen name="quizButtonHorizontalMargin">100dp</dimen>
+
+    <dimen name="quizButtonTextSize">18sp</dimen>
+
+    <!-- Dimensions for positioning buttons on the intro page -->
+    <dimen name="introButtonPortraitTopMargin">390dp</dimen>
+    <dimen name="introButtonLandscapeTopMargin">250dp</dimen>
+
+    <!-- Dimensions for divider line on the quiz pages. -->
+    <dimen name="dividerLineVerticalMargin">15dp</dimen>
+    <dimen name="dividerLineHeight">1dp</dimen>
+
+    <!-- Dimensions for quiz question formatting. -->
+    <dimen name="quizQuestionVerticalPadding">10dp</dimen>
+
+    <!-- Dimensions for radio buttons aligned horizontally. -->
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="layout_weight">1</dimen>
+
+</resources>
