@@ -8,20 +8,41 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <!-- Style for the image on top of the quiz page that remains as the screen below scrolls.-->
+    <style name="headerImage">
+        <item name="android:contentDescription">@string/headerDescription</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:src">@drawable/header</item>
     </style>
 
-    <!-- Theme for Quiz pages, which has Action Bar and back arrow. -->
+    <!-- Style for the scroll view that is below the header image and is the parent to all
+    views that scroll. -->
+    <style name="scrollStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/header</item>
+    </style>
+
+    <!-- Style for the background image on intro page when app launches in portrait mode. -->
     <style name="introBackground">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:scaleType">centerCrop</item>
         <item name="android:src">@drawable/intro</item>
+    </style>
+
+    <!-- Style for the background image on intro page when app launches in landscape mode. -->
+    <style name="introBackgroundLandscape">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/intro_landscape</item>
+
     </style>
     <!-- Style for the quiz page.  This is the LinearLayout view inside the ScrollView. -->
     <style name="quizPageLayout">
