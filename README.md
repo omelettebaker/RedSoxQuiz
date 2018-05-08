@@ -9,5 +9,10 @@
 - use xliff format in XML
 
 ## Screenshots
+- taken on Nexus 6 (API 27)
 
 ![ScreenShot](/screenshot1.png)
+
+![ScreenShot](/screenshot2.png)
+
+![ScreenShot](/screenshot3.png)
