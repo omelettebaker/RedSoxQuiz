@@ -5,8 +5,8 @@
 - Unique toasts depending on final quiz score
 - Buttons, CheckBoxes, Radiogroups
 - use of onSaveInstanceState and onRestoreInstanceState to maintain data upon screen rotation
-- use of intents to open Toast messages and launch new scren within app
-- use xliff format in XML
+- use of intents to open Toast messages and launch new screen within app
+- use of xliff format in XML strings resource file
 
 ## Screenshots
 - taken on Nexus 6 (API 27)
